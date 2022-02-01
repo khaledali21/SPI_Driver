@@ -41,7 +41,6 @@ void SPI_u8SendData(uint8_t data);
 
 SPI_ERR_STATE SPI_u8ReceiveData(uint8_t* data);
 
-void SPI_SetData(uint8_t data);
 SPI_ERR_STATE SPI_u8SendString(uint8_t* str);
 SPI_ERR_STATE SPI_u8ReceiveString(uint8_t* str, uint8_t stop_char);
 
